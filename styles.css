@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: url(quran.jpg) no-repeat center center fixed ;
+    background-size: 100% 100%;
+}
+.container{
+    /* border:7px solid #161614; */
+    color: solid #161614;
+    position: absolute;
+    top: 29%;
+    left: 30%;
+}
+.container h1{
+    font-size:40px ;
+    border-bottom:5px solid #bdac4f ;
+    margin-bottom:43px ;
+    padding: 13px;
+}
+.form {
+	padding: 30px 40px;	
+}
+.box{
+    width:auto;
+    border-bottom:0px solid #bdac4f;
+}
+.box input{
+    background: none;
+    width:75%;
+    margin: 12px 32px 10px ;
+    font-size: 15px;
+    border:none ;
+    outline:none ;
+    border-bottom:2px solid #bdac4f;
+}
+.btn{
+    cursor:pointer ;
+    outline:solid #bdac4f;
+    width: 25%;
+    margin:12px 12px 12px 259px ;
+    padding:6px ;
+    border:2px solid #bdac4f ;
+    border-radius: 10px;
+}
+.btn:hover{
+    capacity:0;
+    color:#bdac4f;
+    background:white;
+}
+.box small{
+    color: #e74c3c;
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.box.error small {
+	visibility: visible;
+}
+.box.success input {
+	border-color: #2ecc71;
+}
+
+.box.error input {
+	border-color: #e74c3c;
+}
+
+
+
+.box small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.box.error small {
+	visibility: visible;
+}
